@@ -1,0 +1,644 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background: #050505;
+  color: #fff;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 45px 20px 0;
+
+  background-image: url("/luxury-property.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Dark overlay */
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.8)
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.9)
+    );
+
+  z-index: 0;
+}
+
+/* GOLD */
+
+:root {
+  --gold: #d9a62e;
+  --gold-light: #f3c75d;
+  --dark: #080808;
+}
+
+/* Brand */
+
+.brand-header {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+
+  margin-bottom: 35px;
+
+  text-align: center;
+}
+
+.brand-header h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  letter-spacing: 7px;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+.brand-header p {
+  margin-top: 4px;
+
+  font-size: 12px;
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+.brand-line {
+  width: 115px;
+  height: 1px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold)
+  );
+}
+
+.brand-line:last-child {
+  background: linear-gradient(
+    90deg,
+    var(--gold),
+    transparent
+  );
+}
+
+/* Main Card */
+
+.maintenance-card {
+  position: relative;
+  z-index: 2;
+
+  width: min(680px, 94vw);
+
+  padding: 50px 50px 45px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(15, 15, 15, 0.96),
+      rgba(5, 5, 5, 0.88)
+    );
+
+  border: 1px solid var(--gold);
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 0 25px rgba(217, 166, 46, 0.15),
+    inset 0 0 50px rgba(0, 0, 0, 0.6);
+}
+
+/* Logo */
+
+.logo-circle {
+  width: 145px;
+  height: 145px;
+
+  margin: 0 auto 25px;
+
+  border: 2px solid var(--gold);
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.logo-circle::before {
+  content: "";
+
+  position: absolute;
+  inset: 8px;
+
+  border: 1px solid rgba(217, 166, 46, 0.4);
+
+  border-radius: 50%;
+}
+
+.logo-circle .icon {
+  width: 78px;
+  height: 78px;
+}
+
+/* Icons */
+
+.icon {
+  width: 38px;
+  height: 38px;
+
+  fill: none;
+
+  stroke: var(--gold-light);
+  stroke-width: 1.4;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Coming Soon */
+
+.coming-soon-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 18px;
+
+  margin-bottom: 12px;
+}
+
+.coming-soon-title span {
+  width: 65px;
+  height: 1px;
+
+  background: var(--gold);
+}
+
+.coming-soon-title em {
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 34px;
+
+  color: var(--gold-light);
+
+  font-weight: 500;
+}
+
+/* Heading */
+
+.maintenance-card h1 {
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: clamp(55px, 8vw, 78px);
+
+  line-height: 0.9;
+
+  letter-spacing: 3px;
+
+  color: #fff;
+}
+
+.maintenance-card h1 strong {
+  display: block;
+
+  font-weight: 500;
+
+  color: var(--gold-light);
+}
+
+.maintenance-card h1 small {
+  display: block;
+
+  margin-top: 10px;
+
+  font-size: 30px;
+
+  letter-spacing: 8px;
+
+  color: var(--gold-light);
+}
+
+.gold-divider {
+  width: 65%;
+  height: 1px;
+
+  margin: 25px auto 22px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold),
+    transparent
+  );
+}
+
+.intro {
+  color: #ddd;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+
+  font-weight: 300;
+}
+
+/* Features */
+
+.features {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-top: 35px;
+
+  border-top: 1px solid rgba(217, 166, 46, 0.25);
+  border-bottom: 1px solid rgba(217, 166, 46, 0.25);
+}
+
+.feature {
+  padding: 22px 10px;
+
+  position: relative;
+}
+
+.feature:not(:last-child)::after {
+  content: "";
+
+  position: absolute;
+
+  top: 20%;
+  right: 0;
+
+  width: 1px;
+  height: 60%;
+
+  background: rgba(217, 166, 46, 0.4);
+}
+
+.feature .icon {
+  width: 38px;
+  height: 38px;
+
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 11px;
+
+  letter-spacing: 2px;
+
+  color: #fff;
+
+  font-weight: 500;
+}
+
+.feature p {
+  margin-top: 4px;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+
+  color: var(--gold-light);
+}
+
+/* Live Soon */
+
+.back-soon {
+  margin-top: 30px;
+
+  padding: 18px 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 18px;
+
+  border: 1px solid rgba(217, 166, 46, 0.65);
+
+  background: rgba(0, 0, 0, 0.45);
+
+  border-radius: 5px;
+}
+
+.calendar-icon {
+  width: 36px;
+  height: 36px;
+
+  fill: none;
+
+  stroke: var(--gold-light);
+
+  stroke-width: 1.4;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.back-soon h3 {
+  font-family: "Cormorant Garamond", serif;
+
+  color: var(--gold-light);
+
+  font-size: 20px;
+
+  letter-spacing: 2px;
+}
+
+.back-soon p {
+  margin-top: 4px;
+
+  color: #bbb;
+
+  font-size: 9px;
+
+  letter-spacing: 3px;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin-top: 45px;
+
+  padding: 25px 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(217, 166, 46, 0.35);
+}
+
+.contact {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.contact-icon {
+  width: 35px;
+  height: 35px;
+
+  border: 1px solid var(--gold);
+
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--gold-light);
+}
+
+.contact p {
+  font-size: 11px;
+
+  line-height: 1.7;
+
+  color: #ddd;
+}
+
+.socials {
+  display: flex;
+
+  gap: 10px;
+}
+
+.social-icon {
+  width: 34px;
+  height: 34px;
+
+  border: 1px solid var(--gold);
+
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--gold-light);
+
+  font-size: 12px;
+
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: var(--gold);
+
+  color: #000;
+
+  transform: translateY(-3px);
+}
+
+.website {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  font-size: 11px;
+
+  color: #ddd;
+}
+
+.globe {
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--gold);
+
+  border-radius: 50%;
+
+  color: var(--gold-light);
+
+  font-size: 18px;
+}
+
+.copyright {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(217, 166, 46, 0.25);
+
+  color: var(--gold);
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+}
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 700px) {
+
+  .coming-soon {
+    padding-top: 25px;
+  }
+
+  .brand-header {
+    gap: 10px;
+
+    margin-bottom: 25px;
+  }
+
+  .brand-header h2 {
+    font-size: 21px;
+
+    letter-spacing: 4px;
+  }
+
+  .brand-header p {
+    font-size: 8px;
+
+    letter-spacing: 5px;
+  }
+
+  .brand-line {
+    width: 35px;
+  }
+
+  .maintenance-card {
+    padding: 35px 20px;
+
+    border-radius: 20px;
+  }
+
+  .logo-circle {
+    width: 105px;
+    height: 105px;
+  }
+
+  .logo-circle .icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .coming-soon-title em {
+    font-size: 27px;
+  }
+
+  .coming-soon-title span {
+    width: 35px;
+  }
+
+  .maintenance-card h1 {
+    font-size: 50px;
+  }
+
+  .maintenance-card h1 small {
+    font-size: 22px;
+
+    letter-spacing: 5px;
+  }
+
+  .intro {
+    font-size: 12px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature {
+    padding: 18px;
+  }
+
+  .feature:not(:last-child)::after {
+    top: auto;
+    right: 20%;
+    bottom: 0;
+
+    width: 60%;
+    height: 1px;
+  }
+
+  .back-soon {
+    padding: 15px;
+  }
+
+  .back-soon h3 {
+    font-size: 16px;
+  }
+
+  footer {
+    flex-direction: column;
+
+    gap: 20px;
+
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 8px;
+  }
+}
