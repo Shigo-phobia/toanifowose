@@ -169,7 +169,7 @@ function Contact() {
               <ContactItem
                 icon={<Mail size={20} />}
                 title="Email"
-                value="management@T.O ANIFOWOSE.com"
+                value="management@toanifowose.com"
               />
 
               <ContactItem

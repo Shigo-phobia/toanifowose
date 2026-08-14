@@ -402,7 +402,7 @@ function PropertyDetails() {
                 </a>
 
                 <a
-                  href="mailto:management@T.O ANIFOWOSE.com"
+                  href="mailto:management@toanifowose.com"
                   className="flex items-center justify-center gap-2 rounded-lg border border-gray-200 py-3 font-semibold text-slate-900 transition hover:border-slate-900"
                 >
                   <Mail size={18} />

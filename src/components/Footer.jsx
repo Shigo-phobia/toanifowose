@@ -88,7 +88,7 @@ function Footer() {
             <div className="mt-5 space-y-3 text-sm text-white/60">
               <p>Osun Idi-Emi, Opposite  Osin Primary School, Ilorin Kwara State, Nigeria</p>
               <p>+234 802 476 2642</p>
-              <p>management@T.O ANIFOWOSE.com</p>
+              <p>management@toanifowose.com</p>
             </div>
           </div>
 

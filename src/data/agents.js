@@ -5,7 +5,7 @@ const agents = [
     role: "Senior Property Consultant",
     location: "Osun Idi-Emi, Opposite  Osin Primary School, Ilorin Kwara State, Nigeria",
     phone: "+234 802 476 2642",
-    email: "management@T.O ANIFOWOSE.com",
+    email: "management@toanifowose.com",
     properties: 24,
     image:
       "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=85",
