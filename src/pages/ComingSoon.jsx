@@ -6,7 +6,7 @@ function ComingSoon({ title }) {
       <div className="text-center">
 
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-600">
-          Toanifowose Real Estate
+          T.O ANIFOWOSE Real Estate
         </p>
 
         <h1 className="mt-4 text-4xl font-bold text-slate-900">

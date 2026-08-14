@@ -12,7 +12,7 @@ function Footer() {
           <div>
             <Link to="/" className="inline-block">
               <h2 className="text-xl font-bold tracking-wide">
-                TOANIFOWOSE
+                T.O ANIFOWOSE
               </h2>
 
               <p className="mt-1 text-xs font-medium tracking-[0.3em] text-amber-400">
@@ -86,9 +86,9 @@ function Footer() {
             </h3>
 
             <div className="mt-5 space-y-3 text-sm text-white/60">
-              <p>Lagos, Nigeria</p>
-              <p>+234 800 000 0000</p>
-              <p>hello@toanifowose.com</p>
+              <p>Osun Idi-Emi, Opposite  Osin Primary School, Ilorin Kwara State, Nigeria</p>
+              <p>+234 802 476 2642</p>
+              <p>management@T.O ANIFOWOSE.com</p>
             </div>
           </div>
 
@@ -102,7 +102,7 @@ function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-6 text-sm text-white/40 sm:flex-row sm:items-center sm:justify-between">
 
           <p>
-            © {new Date().getFullYear()} Toanifowose Real Estate.
+            © {new Date().getFullYear()} T.O Anifowose Real Estate.
             All rights reserved.
           </p>
 

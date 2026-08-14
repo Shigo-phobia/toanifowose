@@ -378,7 +378,7 @@ function PropertyDetails() {
                 <div>
 
                   <p className="font-bold text-slate-900">
-                    Toanifowose Team
+                    T.O ANIFOWOSE Team
                   </p>
 
                   <p className="text-sm text-gray-500">
@@ -402,7 +402,7 @@ function PropertyDetails() {
                 </a>
 
                 <a
-                  href="mailto:hello@toanifowose.com"
+                  href="mailto:management@T.O ANIFOWOSE.com"
                   className="flex items-center justify-center gap-2 rounded-lg border border-gray-200 py-3 font-semibold text-slate-900 transition hover:border-slate-900"
                 >
                   <Mail size={18} />

@@ -163,19 +163,19 @@ function Contact() {
               <ContactItem
                 icon={<Phone size={20} />}
                 title="Phone"
-                value="+234 800 000 0000"
+                value="+234 802 476 2642"
               />
 
               <ContactItem
                 icon={<Mail size={20} />}
                 title="Email"
-                value="hello@toanifowose.com"
+                value="management@T.O ANIFOWOSE.com"
               />
 
               <ContactItem
                 icon={<MapPin size={20} />}
                 title="Office"
-                value="Lagos, Nigeria"
+                value="Osun Idi-Emi, Opposite  Osin Primary School, Ilorin Kwara State, Nigeria"
               />
 
               <ContactItem

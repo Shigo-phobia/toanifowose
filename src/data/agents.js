@@ -1,11 +1,11 @@
 const agents = [
   {
     id: 1,
-    name: "Toanifowose Team",
+    name: "T.O ANIFOWOSE Team",
     role: "Senior Property Consultant",
-    location: "Lagos, Nigeria",
-    phone: "+234 800 000 0000",
-    email: "hello@toanifowose.com",
+    location: "Osun Idi-Emi, Opposite  Osin Primary School, Ilorin Kwara State, Nigeria",
+    phone: "+234 802 476 2642",
+    email: "management@T.O ANIFOWOSE.com",
     properties: 24,
     image:
       "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=85",
@@ -19,7 +19,7 @@ const agents = [
     role: "Property Consultant",
     location: "Lekki, Lagos",
     phone: "+234 800 000 0001",
-    email: "david@toanifowose.com",
+    email: "david@T.O ANIFOWOSE.com",
     properties: 18,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=85",
@@ -33,7 +33,7 @@ const agents = [
     role: "Luxury Property Advisor",
     location: "Victoria Island, Lagos",
     phone: "+234 800 000 0002",
-    email: "sarah@toanifowose.com",
+    email: "sarah@T.O ANIFOWOSE.com",
     properties: 16,
     image:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=85",
@@ -47,7 +47,7 @@ const agents = [
     role: "Property Manager",
     location: "Ikeja, Lagos",
     phone: "+234 800 000 0003",
-    email: "michael@toanifowose.com",
+    email: "michael@T.O ANIFOWOSE.com",
     properties: 21,
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85",

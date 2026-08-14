@@ -11,7 +11,7 @@ function FavoritesProvider({ children }) {
   const [favorites, setFavorites] = useState(() => {
     try {
       const saved = localStorage.getItem(
-        "toanifowose-favorites"
+        "T.O ANIFOWOSE-favorites"
       );
 
       return saved ? JSON.parse(saved) : [];
@@ -22,7 +22,7 @@ function FavoritesProvider({ children }) {
 
   useEffect(() => {
     localStorage.setItem(
-      "toanifowose-favorites",
+      "T.O ANIFOWOSE-favorites",
       JSON.stringify(favorites)
     );
   }, [favorites]);

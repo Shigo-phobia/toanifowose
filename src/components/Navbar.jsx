@@ -25,7 +25,7 @@ function Navbar() {
         {/* Logo */}
         <Link to="/" onClick={closeMenu}>
           <div className="text-xl font-bold tracking-wide text-slate-900">
-            TOANIFOWOSE
+            T.O ANIFOWOSE
           </div>
 
           <div className="mt-1 text-[10px] font-semibold tracking-[0.3em] text-amber-600">

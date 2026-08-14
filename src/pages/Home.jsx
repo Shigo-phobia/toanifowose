@@ -59,7 +59,7 @@ function Home() {
           <div className="w-full max-w-4xl">
 
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
-              TOANIFOWOSE REAL ESTATE
+              T.O ANIFOWOSE REAL ESTATE
             </p>
 
             <h1 className="mt-5 text-5xl font-bold leading-tight text-white md:text-7xl">
@@ -256,7 +256,7 @@ function Home() {
           <div className="mx-auto max-w-2xl text-center">
 
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-amber-600">
-              Why Toanifowose
+              Why T.O ANIFOWOSE
             </p>
 
             <h2 className="mt-3 text-4xl font-bold text-slate-900">

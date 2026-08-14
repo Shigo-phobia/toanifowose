@@ -23,7 +23,7 @@ function About() {
           <div className="max-w-3xl">
 
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
-              About Toanifowose
+              About T.O ANIFOWOSE
             </p>
 
             <h1 className="mt-5 text-4xl font-bold leading-tight text-white md:text-6xl">
@@ -34,7 +34,7 @@ function About() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-              Toanifowose Real Estate connects people with quality
+              T.O ANIFOWOSE Real Estate connects people with quality
               properties while making the buying, renting and
               selling experience simple and transparent.
             </p>
@@ -110,7 +110,7 @@ function About() {
             </h2>
 
             <p className="mt-6 leading-8 text-gray-600">
-              At Toanifowose Real Estate, we believe finding the
+              At T.O ANIFOWOSE Real Estate, we believe finding the
               right property should be exciting, straightforward
               and stress-free.
             </p>
